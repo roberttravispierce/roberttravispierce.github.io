@@ -18,19 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Robert’s Guide to Rails Software Development
+title: How to Win at Software Development
 email: robert@roberttravispierce.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the repository of my tools, resources and guides for being a Software Engineer using Ruby on Rails
+  This is the repository of my tools, resources and guides for being a Pragmatic Programmer and all around excellent Software Engineer
 baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://roberttravispierce.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: roberttpierce
 github_username:  roberttravispierce
 
 # Build settings
-theme: minima
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
